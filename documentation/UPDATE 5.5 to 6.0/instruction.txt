@@ -1,0 +1,35 @@
+1. Backup your database and all files
+
+2. Replace all files of 5.5 version files with new 6.0 version files
+
+3. Keep existing database connection in the new database connection file
+    aplication->config->database.php
+Note: Please ensure your database connection is correct
+
+4.  Keep existing base url in the new config file
+    aplication->config->config.php
+Note: Please ensure your base url
+
+5. if your domain ssl certified then pls add https instead of http in the 
+     application->config->config.php
+    $root = "http://".$_SERVER['HTTP_HOST'];  // not ssl
+    $root = "https://".$_SERVER['HTTP_HOST']; // for ssl 
+ 
+6. Run alter.sql in you existing database from 
+    phpmyadmin
+    select your database
+    click SQL tab
+    paste your sql here
+    finally click GO Button
+
+Or Import alter.sql file in your existing database
+
+7. Run  languages.sql in you existing  database from phpmyadmin
+
+8. Replace "uploads" folder from your backup "uploads" at Project root->assets
+It must be your existing folder , otherwise your all uploaded image will be lost.
+Then please create following two folders inside "uploads" folder.
+ assignment-submission, video-lecture
+
+
+Thank you

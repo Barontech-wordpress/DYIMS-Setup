@@ -1,0 +1,19 @@
+--HOME PAGE--
+-Top Bar>>Icons for phone icon is different from design | Phone number>dash
+-Header options are different from UI
+-Change Favicon | Logo is blur 
+-Banners movement is reverse and size is very big | Institute>spells
+-Chairman Message> Color for heading is not brand color | Institute spells | Read More button is very big
+-Our Achievements> Whether>Spells
+-Our Programs> Whether>Spells | Text for every program | Read More button color
+-News and Events> Whether>spells | Alignment of right side events must be in a way that they are perfectly aligned with left side events
+-Our Gallery> Whether>spells | Images are not aligned
+-What our students say> Whether>spells
+Footer> Logo blur | Alignment for text>must be on single line | Calendar(spells) | Statement(spells) | Change Copyright 2021 | Too much extra space at sides of logo
+
+--About Us--
+Change School to Institute or remove the school | Text color of heading is not brand color
+
+--Our Programs--
+Why you should use its program>Why you should choose its program
+
